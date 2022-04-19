@@ -171,7 +171,7 @@ footer {
 }
 .txtUL {
     color: #670103;
-    font-size: .2rem;
+    font-size: .6rem;
 }
 
 
@@ -236,5 +236,5 @@ footer {
    /* Pag1 - Index */
    .pMsg {
         margin-left: 26%;
-}
+    }
 }
