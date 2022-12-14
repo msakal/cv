@@ -1,240 +1,300 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
 
 html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 150px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 150px;
 }
 
 body {
-    margin: 0 20px 0 20px;
-    background-color: #ebf1f6;
-    background: linear-gradient(
-        to bottom,
-        #ebf1f6 0%, #9ab5c7 55%,
-        #8b9eac 56%, #d5ebfb 100%
-    );
-    background-attachment: fixed;
+  margin: 0 20px 0 20px;
+  background-color: #ebf1f6;
+  background: linear-gradient(
+    to bottom,
+    #ebf1f6 0%,
+    #9ab5c7 55%,
+    #8b9eac 56%,
+    #d5ebfb 100%
+  );
+  background-attachment: fixed;
 }
 header {
-    position: sticky;
-    top: 0;
+  position: sticky;
+  top: 0;
 }
 header nav {
-    margin: 0;
-    padding: 0; 
+  margin: 0;
+  padding: 0;
 }
 nav {
-    line-height: 10px;
-    border-radius: 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 10px;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 nav ul {
-    margin: 0 150px;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content: right;
+  margin: 0 150px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: right;
 }
 nav a {
-    color: #000000;
-    font-style: italic;
-    text-decoration: none;
-    text-transform: capitalize;
-    padding: 25px 10px;
-    transition: all 0.8s;
-    display: flex;
-    font-size: 16px;
+  color: #000000;
+  font-style: italic;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 25px 10px;
+  transition: all 0.8s;
+  display: flex;
+  font-size: 16px;
 }
-nav a:hover, nav a:active {
-    color: #c27d7d;
-    text-shadow: rgb(65, 42, 42) 3px 3px 5px;
-    border-radius: 5px;
+nav a:hover,
+nav a:active {
+  color: #c27d7d;
+  text-shadow: rgb(65, 42, 42) 3px 3px 5px;
+  border-radius: 5px;
 }
 h1 {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 /* Padrão - footer */
 footer {
-    color: #000000;
-    background-color: #ad73d1;
-    text-align: center;
-    border-radius: 5px;
-    line-height: 35px;
-    /* margin-top: 150px; */
+  color: #000000;
+  background-color: #ad73d1;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 35px;
 }
 
 /* Pag1 - Área das 2 colunas */
 .colunas {
-    display: flex;
-    flex-wrap: wrap; /* determina quebra de conteúdo flexbox */
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap; /* determina quebra de conteúdo flexbox */
+  justify-content: space-between;
 }
-.col1, .col1P, .col2P {
-    margin-top: 0;
-    margin-bottom: 10px;  
+.col1,
+.col1P {
+  margin-top: 0;
+  margin-bottom: 10px;
 }
-    .col1, .col2 {
-        width: 100%;
-        height: 650px;
-    }
-    .col2 {
-        margin-top: -130px;
-        margin-bottom: -100px;
-    }
-    .pApresent {
-        font-size: 2rem;
-        color: rgb(40, 40, 78);
-        text-align: center;
-        text-shadow: rgb(235, 118, 118) 3px 3px 8px;
-    }
-    .pTexto {
-        font-size: 1rem;
-        color: rgb(40, 40, 78);
-        text-align: center;
-        margin-top: -20px;
-    }
-    .fNormal {
-        font-size: 2rem;
-        text-shadow: none;
-        font-style: normal;
-    }
-    .pMsg:hover, .wApp:hover {
-        background-color: #a663cf;  
-    }
-        .pMsg {
-            background-color: #ad73d1;
-            text-decoration: none;
-            color: white;
-            border-radius: 10px 5px 25px 5px;
-            font-family: cursive;
-            padding: 10px;
-            margin-left: 13%;
-            margin-right: 10%;
-        }
-        .wApp {
-            background-color: #ad73d1;
-            text-decoration: none;
-            color: white;
-            border-radius: 10px 5px 25px 5px;
-            font-family: cursive;
-            padding: 10px;
-        }
-    .pIdentidade {
-        background-color: #8a8296;
-        color: rgb(247, 196, 196);
-        border-radius: 5px 15px 35px 15px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin-top: 12px;
-        margin-left: 10%;
-        margin-right: 10%;
-        font-size: 1.7rem;
-        text-align: center;
-    }
-    .col2 img {
-        border-radius: 30px;
-        /* margin-top: 170px; */
-    }
+.col1,
+.col2 {
+  width: 100%;
+  height: 650px;
+}
+.col2 {
+  margin-top: -180px;
+  margin-bottom: -150px;
+}
+.pApresent {
+  font-size: 1.5rem;
+  color: rgb(40, 40, 78);
+  text-align: center;
+  text-shadow: rgb(235, 118, 118) 3px 3px 8px;
+}
+.pTexto {
+  font-size: 1rem;
+  color: rgb(40, 40, 78);
+  text-align: center;
+  margin-top: -20px;
+}
+.fNormal {
+  font-size: 1.5rem;
+  text-shadow: none;
+  font-style: normal;
+}
+.pMsg:hover,
+.wApp:hover {
+  background-color: #a663cf;
+}
+.pMsg {
+  background-color: #ad73d1;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px 5px 25px 5px;
+  font-family: cursive;
+  padding: 10px;
+  margin-left: 13%;
+  margin-right: 10%;
+}
+.wApp {
+  background-color: #ad73d1;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px 5px 25px 5px;
+  font-family: cursive;
+  padding: 10px;
+}
+.pIdentidade {
+  background-color: #8a8296;
+  color: rgb(247, 196, 196);
+  border-radius: 5px 15px 35px 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 12px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 1.7rem;
+  text-align: center;
+}
+.col2 img {
+  border-radius: 30px;
+}
 
 /* Pag2 - Profissional */
 .col1P {
-    width: 40%;
-    height: 400px;
-    margin-top: 50px;
-    margin-left: 7%;
+  width: 80%;
+  height: 400px;
+  margin-right: 15%;
+  margin-left: 7%;
 }
-.col2P {
-    width: 45%;
-    height: 400px;
-    margin-right: 5%;
+.col3P,
+.col4P {
+  margin-top: -130px;
+  margin-bottom: 70px;
+  height: 400px;
 }
-.col3P, .col4P {
-    margin-top: 70px;
-    margin-bottom: 230px;
-    height: 400px;
+.col3P {
+  width: 40%;
+  margin-left: 7%;
 }
-    .col3P {
-        width: 40%;
-        margin-left: 7%;
-    }
-    .col4P {
-        width: 45%;
-        margin-right: 5%;
-    }
+.col4P {
+  width: 45%;
+  margin-right: 5%;
+}
 .h2Prof {
-    margin-left: 15%;
-    color: #272627;
-    font-size: 1.2rem;
+  text-align: center;
+  margin-left: center;
+  color: #272627;
+  font-size: 1.2rem;
 }
 .txtUL {
-    color: #670103;
-    font-size: .6rem;
+  color: #670103;
+  font-size: 0.7rem;
+}
+.txtGH {
+  margin-left: 10%;
+  margin-top: 40px;
+}
+.dCV {
+  background-color: #ad73d1;
+  border-radius: 10px 5px 25px 5px;
+  padding: 15px;
+  margin-right: 20%;
+}
+.bDL {
+  text-decoration: none;
+  color: white;
+  font-family: cursive;
 }
 
-
 /* breakpoints - ponto de quebra de layout */
+
+@media screen and (max-width: 400px) {
+  .col3P,
+  .col4P {
+    margin-top: -10px;
+    margin-bottom: 220px;
+    height: 400px;
+  }
+}
+
+/* CSS para telas acima de 600px */
+@media screen and (min-width: 600px) {
+  .txtGH {
+    margin-top: -140px;
+  }
+  .dCV {
+    margin-right: 37%;
+  }
+}
+
 /* CSS para telas acima de 760px */
 @media screen and (min-width: 760px) {
-    /* Header - Padrão (pag's) */
-    nav a {
-        padding: 28px 40px;
-        font-size: 20px;
-    }
-    .col2, .col1P, .col2P {
-        margin-top: 10px; 
-    }
-    /* Pag1 - Index */
-    .col1, .col2  {
-        width: 49%;
-        height: 520px;
-        margin-left: 5px;
-        margin-right: 5px;
-        margin-bottom: 100px;
-    }
-    .pApresent, .fNormal {
-        font-size: 3rem;
-    }
-    .pTexto {
-        font-size: 2rem;
-    }
-    .pIdentidade {
-        margin-top: 5px;
-        font-size: 2rem;
-    }
-    .pMsg {
-        margin-left: 20%;
-    }
-    /* Pag2 - Profissional */
-    .col1P {
-        margin-top: 0;
-    }
-    .col2P {
-        margin-top: 55px;
-    }
-    .col3P, .col4P {
-        height: 400px;
-        margin-top: 10px;
-        margin-bottom: -60px;
-    }
+  /* Header - Padrão (pag's) */
+  nav a {
+    padding: 28px 40px;
+    font-size: 20px;
+  }
+
+  /* Pag1 - Index */
+  .col1,
+  .col2 {
+    width: 49%;
+    height: 520px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .col2 {
+    margin-top: 28px;
+  }
+  .pApresent,
+  .fNormal {
+    font-size: 2rem;
+  }
+  .pTexto {
+    font-size: 1rem;
+  }
+  .pIdentidade {
+    margin-top: 5px;
+    font-size: 1.7rem;
+  }
+  .pMsg {
+    margin-left: 20%;
+  }
+
+  /* Pag2 - Profissional */
+  .col1P {
+    margin-top: 55px;
+  }
+  .col3P,
+  .col4P {
+    height: 400px;
+    margin-top: -100px;
+    margin-bottom: -10px;
+  }
+  .txtUL {
+    font-size: 0.8rem;
+  }
+  .txtGH {
+    margin-top: 0px;
+  }
 }
 
 @media screen and (min-width: 900px) {
-    /* Pag2 - Profissional */
-    .txtUL {
-        font-size: 1rem;
-    }
+  .txtUL {
+    font-size: 1rem;
+  }
+  .pIdentidade {
+    margin-top: 4px;
+    font-size: 2rem;
+  }
+  .dCV {
+    margin-right: 40%;
+  }
 }
 
 @media screen and (min-width: 1100px) {
-    /* Pag1 - Index */
-    .col1, .col2  {
-        margin-bottom: auto;
-   }
-   /* Pag1 - Index */
-   .pMsg {
-        margin-left: 26%;
-    }
+  .pApresent,
+  .fNormal {
+    font-size: 2.5rem;
+  }
+  .pIdentidade {
+    font-size: 2rem;
+  }
+  .dCV {
+    margin-right: 43%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .pTexto {
+    font-size: 2rem;
+  }
+  .dCV {
+    margin-right: 45%;
+  }
 }
