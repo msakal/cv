@@ -1,60 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projeto Pessoal</title>
 
     <!-- Descrição resumida da página -->
-    <meta name="description" content="Descrição Pessoal, gostos e pespectiva">
+    <meta name="description" content="Descrição Pessoal, gostos e pespectiva" />
 
     <!-- Palavras-chave de página -->
-    <meta name="keywords" content="Vida de Marcello, web design">
+    <meta name="keywords" content="Vida de Marcello, web design" />
 
     <!-- Inserindo favicon-->
-    <link rel="shortcut icon" href="imagens/icone.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/icone.ico" type="image/x-icon" />
 
     <!-- Link para arquivo css externo -->
-    <link rel="stylesheet" href="estilo.css">
-</head>
-<body>
-
-    
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
     <!-- cabeçalho contém apenas o menu neste exercício -->
     <header>
-        <nav>   
-            <ul> 
-                <li><a href="index.html" title="Página incial">Pessoal</a></li>
-                <li><a href="profissional.html" title="Projeto">Profissional</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="index.html" title="Página incial">Pessoal</a></li>
+          <li><a href="profissional.html" title="Projeto">Profissional</a></li>
+        </ul>
+      </nav>
     </header>
 
     <section class="colunas">
-        <div class="col1">
-            <p class="pApresent">Olá Pessoal!!&nbsp;&nbsp;&nbsp;<span class="fNormal">Sou</span><br>Marcello Sakalauskas Antunes</p>
-            <p class="pTexto">Nasci em 01/10/1973 (São Paulo/SP)</p>
-            <p><a href="mailto:m_sakalauskas@hotmail.com" title="Envie um e-mail" class="pMsg">Envie um e-mail</a>
-            <a href="https://api.whatsapp.com/send?phone=5511997248171&text=Entre%20em%20contato" title="WhatsApp" class="wApp" target="_blank">WhatsApp</a>
-            </p>
-            <br>
-            <p class="pIdentidade">&nbsp;O respeito ao trabalho, aos colegas e o comprometimento no dia a dia é que fazem do profissional um ser humano ético.</p>
-            <!-- <p class="pIdentidade">&nbsp;Sou uma Pessoa proativa, busco a melhor forma para interação e resolução das atividades ...</p> -->
-        </div>
-        
-        <div class="col2">
-            <img src="imagens/pessoal/img-home.jpg" alt="Página inicial" height="520">
-        </div>
-        
-    </section>
+      <div class="col1">
+        <p class="pApresent">
+          Olá Pessoal!!&nbsp;&nbsp;&nbsp;<span class="fNormal">Sou</span
+          ><br />Marcello Sakalauskas Antunes
+        </p>
+        <p class="pTexto">Nasci em 01/10/1973 (São Paulo/SP)</p>
+        <br />
+        <p>
+          <a
+            href="mailto:m_sakalauskas@hotmail.com"
+            title="Envie um e-mail"
+            class="pMsg"
+            >Envie um e-mail</a
+          >
+          <a
+            href="https://api.whatsapp.com/send?phone=5511997248171&text=Entre%20em%20contato"
+            title="WhatsApp"
+            class="wApp"
+            target="_blank"
+            >WhatsApp</a
+          >
+        </p>
+        <br />
+        <p class="pIdentidade">
+          &nbsp;O respeito ao trabalho dos colegas e o comprometimento no dia a
+          dia é que fazem do profissional um ser humano ético.
+        </p>
+      </div>
 
-        
+      <div class="col2">
+        <picture>
+          <source
+            media="(max-width:750px )"
+            srcset="imagens/Pessoal/img-home-min.jpg"
+            type="image/png"
+          />
+          <img
+            src="imagens/pessoal/img-home.jpg"
+            alt="Página inicial"
+            height="520"
+          />
+        </picture>
+      </div>
+    </section>
+    <br />
 
     <!-- rodapé do site -->
     <footer>
-        <p>Desenvolvido por || <strong>MarcelloSA</strong> 03.2022</p>
+      <p>Desenvolvido por || <strong>MarcelloSA</strong> 10.2022</p>
     </footer>
- 
-</body>
-</html>         
+  </body>
+</html>
